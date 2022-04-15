@@ -1,0 +1,66 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'variables';
+
+body {
+    color: $TEXT-COLOR;
+    background-color: $BACKGROUND-COLOR;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.cityIn {
+    max-width: 300px;
+}
+
+.table tr:hover,
+.t-active {
+    cursor: pointer;
+    background-color: $TEXT-COLOR-DARK;
+}
+
+.scroll {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.lang {
+    width: 120px;
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        color: $TEXT-COLOR-DARK;
+        background-color: $BACKGROUND-COLOR-DARK;
+    }
+
+    .form-control,
+    .form-select {
+        background-color: $TEXT-COLOR;
+        color: $TEXT-COLOR-DARK;
+
+        &:focus {
+            background-color: $BACKGROUND-COLOR-DARK;
+            color: $TEXT-COLOR-DARK;
+        }
+    }
+
+    .table {
+        color: $TEXT-COLOR-DARK;
+        
+        tr:hover,
+        .t-active {
+            background-color: $TEXT-COLOR;
+        }
+    }
+}
+
+.flag {
+    width: $FLAG-WIDTH;
+
+    @media(max-width: $MOBILE) {
+        width: $FLAG-WIDTH-MOBILE;
+    }
+}
