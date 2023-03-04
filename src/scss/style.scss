@@ -1,0 +1,117 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import 'variables';
+
+body {
+    color: $TEXT-COLOR;
+    background-color: $BACKGROUND-COLOR;
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    max-width: 1000px;
+}
+
+.cityIn {
+    position: absolute;
+    top: 14px;
+    left: calc(50% - 126px);
+    max-width: 252px;
+    height: fit-content;
+}
+
+.table tr:hover,
+.t-active {
+    cursor: pointer;
+    background-color: $TEXT-COLOR-DARK;
+}
+
+.scroll {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.lang {
+    width: 120px;
+}
+
+.but {
+    width: 44px;
+    height: 44px;
+    border: 1px solid black;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 0px 0 1px;
+}
+
+.lng, .gps {
+    position: absolute;
+    top: 138px;
+    margin-left: 6px;
+
+    svg {
+        width: 22px;
+    }
+}
+
+.gps {
+    top: 273px;
+    padding: 1px 0px 1px 1.5px;
+}
+
+.langList {
+    background-color: $BACKGROUND-COLOR;
+    overflow-y: auto;
+    height: 170px;
+    
+    svg {
+        width: 25px;
+        margin-right: 5px;
+    }
+}
+
+.flag {
+    width: $FLAG-WIDTH;
+
+    @media(max-width: $MOBILE) {
+        width: $FLAG-WIDTH-MOBILE;
+    }
+}
+
+@media(prefers-color-scheme: dark) {
+    body {
+        color: $TEXT-COLOR-DARK;
+        background-color: $BACKGROUND-COLOR-DARK;
+    }
+
+    .form-control,
+    .form-select {
+        background-color: $TEXT-COLOR;
+        color: $TEXT-COLOR-DARK;
+
+        &:focus {
+            background-color: $BACKGROUND-COLOR-DARK;
+            color: $TEXT-COLOR-DARK;
+        }
+    }
+
+    .table {
+        color: $TEXT-COLOR-DARK;
+        
+        tr:hover,
+        .t-active {
+            background-color: $TEXT-COLOR;
+        }
+    }
+
+    .langList {
+        background-color: $BACKGROUND-COLOR-DARK;
+        
+        a {
+            color: $TEXT-COLOR-DARK;
+        }
+    }
+}

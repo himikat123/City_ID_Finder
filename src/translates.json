@@ -1,0 +1,97 @@
+{
+    "yourCity": {
+        "en": "Input your city",
+        "de": "Geben Sie Ihre Stadt ein",
+        "pl": "Wpisz swoje miasto",
+        "ro": "Introduceți orașul dvs",
+        "ru": "Введите свой город",
+        "bg": "Въведете вашия град",
+        "az": "Şəhərinizi daxil edin",
+        "ua": "Введіть своє місто",
+        "es": "Ingresa tu ciudad"
+    },
+
+    "findMyLocationAutomatically": {
+        "en": "Find my location automatically",
+        "de": "Finde meinen Standort automatisch",
+        "pl": "Znajdź moją lokalizację automatycznie",
+        "ro": "Găsește-mi automat locația",
+        "ru": "Найти мое местоположение автоматически", 
+        "bg": "Автоматично намиране на моето местоположение",
+        "az": "Yerimi avtomatik tapın",
+        "ua": "Знайти моє місцезнаходження автоматично",
+        "es": "Encuentra mi ubicación automáticamente"
+    },
+
+    "country": {
+        "en": "Country",
+        "de": "Land",
+        "pl": "Kraj",
+        "ro": "Țară",
+        "ru": "Страна",
+        "bg": "Държава",
+        "az": "Ölkə",
+        "ua": "Країна",
+        "es": "País"
+    },
+    
+    "state": {
+        "en": "State",
+        "de": "Bundesland",
+        "pl": "Stan",
+        "ro": "Stat",
+        "ru": "Штат",
+        "bg": "Штат",
+        "az": "Dövlət",
+        "ua": "Штат",
+        "es": "Estado"
+    },
+
+    "city": {
+        "en": "City",
+        "de": "Stadt",
+        "pl": "Miasto",
+        "ro": "Oraș",
+        "ru": "Город",
+        "bg": "Град",
+        "az": "Şəhər",
+        "ua": "Місто",
+        "es": "Ciudad"
+    },
+
+    "longitude": {
+        "en": "Longitude",
+        "de": "Längengrad",
+        "pl": "Długość",
+        "ro": "Longitudine",
+        "ru": "Долгота",
+        "bg": "Дължина",
+        "az": "Uzunluq",
+        "ua": "Довгота",
+        "es": "Longitud"
+    },
+
+    "latitude": {
+        "en": "Latitude",
+        "de": "Breite",
+        "pl": "Szerokość",
+        "ro": "Latitudine",
+        "ru": "Широта",
+        "bg": "Ширина",
+        "az": "Enlem",
+        "ua": "Широта",
+        "es": "Latitud"
+    },
+    
+    "coordinates": {
+        "en": "Coordinates",
+        "de": "Koordinaten",
+        "pl": "Współrzędne",
+        "ro": "Coordonatele",
+        "ru": "Координаты",
+        "bg": "Координати",
+        "az": "Koordinatlar",
+        "ua": "Координати",
+        "es": "Coordenadas"
+    }
+}
