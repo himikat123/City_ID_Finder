@@ -6,6 +6,7 @@ const autoprefixer = require('gulp-autoprefixer');
 const rename = require("gulp-rename");
 const zip = require('gulp-zip');
 const clean = require('gulp-clean');
+const package = require('./package.json');
 
 gulp.task('inline', function() {
     return gulp.src('./build/index.html')
@@ -26,14 +27,14 @@ gulp.task('rename', function() {
     return gulp.src("./release/index.html", { base: process.cwd() })
         .pipe(rename({
             dirname: "",
-            basename: "City_ID_Finder",
+            basename: `City_ID_Finder_${package.version}`,
             extname: ".html"
         }))
         .pipe(gulp.dest("./release"));
 });
 
 gulp.task('zip', function() {
-	return gulp.src('./release/City_ID_Finder.html')
+	return gulp.src(`./release/City_ID_Finder_${package.version}.html`)
 		.pipe(zip('City_ID_Finder.zip'))
 		.pipe(gulp.dest('./release'))
     }
