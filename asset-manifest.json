@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/City_ID_Finder/static/css/main.207fb43b.css",
-    "main.js": "/City_ID_Finder/static/js/main.00f7bc98.js",
+    "main.js": "/City_ID_Finder/static/js/main.b66f251b.js",
     "static/media/do.svg": "/City_ID_Finder/static/media/do.1896343b2a6115e7d8713d210ea67ec0.svg",
     "static/media/bo.svg": "/City_ID_Finder/static/media/bo.840173b33561561c661c76f88dce8d32.svg",
     "static/media/mx.svg": "/City_ID_Finder/static/media/mx.13e4fdb8c0c2f625ab27432099d9ceea.svg",
@@ -266,10 +266,10 @@
     "static/media/pl.svg": "/City_ID_Finder/static/media/pl.3038582ed61f2249ba73472fbe345fc5.svg",
     "static/media/bd.svg": "/City_ID_Finder/static/media/bd.36b2d19cec4314a7715b9897370dcfbd.svg",
     "main.207fb43b.css.map": "/City_ID_Finder/static/css/main.207fb43b.css.map",
-    "main.00f7bc98.js.map": "/City_ID_Finder/static/js/main.00f7bc98.js.map"
+    "main.b66f251b.js.map": "/City_ID_Finder/static/js/main.b66f251b.js.map"
   },
   "entrypoints": [
     "static/css/main.207fb43b.css",
-    "static/js/main.00f7bc98.js"
+    "static/js/main.b66f251b.js"
   ]
 }
